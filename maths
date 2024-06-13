@@ -1,0 +1,20 @@
+// SPDX-License-Identifier: MIT
+pragma solidity ^0.8.0;
+
+contract MathOperations {
+    function add(uint256 a, uint256 b) public pure returns (uint256) {
+        return a + b;
+    }
+
+    function substract(uint256 a, uint256 b) public pure returns (uint256) {
+        return a -b;
+    }
+
+    function multiply(uint a, uint b) public pure returns (uint256) {
+        return a * b;
+    }
+
+    function divide(uint256 a, uint b) public pure returns(uint256){
+        return a/b;
+    }
+}
